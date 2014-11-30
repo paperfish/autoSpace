@@ -83,3 +83,32 @@
     font-family:comfortaa;
     src:url("../comfortaa/Comfortaa-Light.ttf");
 }
+#dims input{
+    padding:10px;
+    font-size: 1.3em;
+}
+#v{
+    padding:20px;
+    text-align: center;
+}
+#vm{
+    padding:10px;
+    width:70px;
+    height:70px;
+    background:#f60;
+    margin:20px;
+    color:white;
+    float:left;
+}
+#h{
+    float:left;
+    margin-top:45px;
+}
+#w{
+    clear:both;
+    margin-left:45px;
+}
+#aa{
+    width:130px;
+    margin:auto;
+}

@@ -18,7 +18,14 @@ $(function() {
                 space.screen = "views";
                 break;
             case "views":
-                //space.screen="";
+                space.screen="dims";
+                views();
+                $("#views").css("display","none");
+                $("#dims").css("display","block");
+                break;
+            case "dims":
+                cviews();
+                break;
         }
     });
     $(".back").on("click", function() {
@@ -58,3 +65,13 @@ $(function() {
             $(this).addClass("normal").removeClass("selected");
     });
 });
+function views(){
+    var arr=$(".selected");
+    for(var i=0;i<arr.length;i++){
+        space.views[i]=arr.eq(i).html();
+    }
+    //alert(JSON.stringify(space.views))
+}
+function cviews(){
+    
+}
