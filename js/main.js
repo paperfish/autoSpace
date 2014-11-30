@@ -52,9 +52,9 @@ $(function() {
         }, 200);
     });
     $("#views table div").on("click", function() {
-        if ($(this).attr("class") == "normal")
-            $(this).attr("class", "selected");
+        if ($(this).hasClass("normal"))
+            $(this).addClass("selected").removeClass("normal");
         else
-            $(this).attr("class", "normal");
+            $(this).addClass("normal").removeClass("selected");
     });
 });
