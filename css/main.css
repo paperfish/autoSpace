@@ -1,0 +1,85 @@
+*{
+    box-sizing:border-box;
+    font-family:comfortaa;
+    padding:0;
+    margin:0;
+}
+#welcome{
+    text-align:center;
+    padding:20px;
+    padding-top:130px;
+}
+#views{
+}
+#container{
+    height:85%;
+    width:100%;
+}
+.screen{
+    width:100%;
+    height:85%;
+    float:left;
+    padding:10px;
+    background:#fff;
+}
+.nav{
+    height:15%;
+    padding:30px;
+    clear:both;
+}
+.back{
+    float:left;
+    display:none;
+}
+.next{
+    float:right;
+}
+#welcome *{
+    padding:10px;
+}
+#angle .head{
+    padding-bottom:130px;
+
+}
+.head{
+    text-align:center;
+    padding:20px;
+}
+#first,#third{
+    padding:30px;
+    text-align:center;
+
+}
+#views table div{
+    width:70px;
+    height:70px;
+    margin:5px;
+    float:left;
+    text-align:center;
+    padding-top:27px;
+}
+.normal{
+    background:#f5f5f5;
+    color:#000;
+}
+.selected{
+    background:#f60;
+    color:#fff;
+}
+#views table{
+    width:100%;
+    height:85%;
+}
+#views{
+    text-align:center;
+}
+#views table{
+    margin:auto;
+}
+.back,.next,#views table div, #first,#third{
+    cursor:pointer;
+}
+@font-face{
+    font-family:comfortaa;
+    src:url("../comfortaa/Comfortaa-Light.ttf");
+}
